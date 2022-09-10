@@ -1,6 +1,10 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;600;700;800&display=swap');
 
+#date{
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.852);
+}
 
 body{
     font-family: 'Noto Sans', sans-serif;
@@ -14,15 +18,30 @@ body{
     margin: auto;
 }
 
+#mysql-img{
+    height: 100px;
+}
+
+#mongodb-img{
+    height: 100px;
+}
+
 h1{
     text-align: center;
 }
 
 h2{
     margin-bottom: 0;
+    font-style: italic;
 }
 
 p{
     margin-top: 10px;
+    color: rgba(0, 0, 0, 0.855);
+}
+
+li{
+    list-style: none;
+
 }
 
